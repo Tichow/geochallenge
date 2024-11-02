@@ -21,7 +21,7 @@ class GameSocket {
   private static instance: GameSocket;
 
   private constructor() {
-    this.socket = io('https://geochallenge-server.stackblitz.io');
+    this.socket = io('https://geochallenge.onrender.com');
   }
 
   public static getInstance(): GameSocket {
